@@ -7,10 +7,10 @@ We have implemented PCA on the basis of the minimization of the reconstruction e
 
     ├── src                                   # Source files for all the results
         .
-        ├── GDP_capita_spanish_regions.csv    #dataset of the Nominal GDP per Capita in Spain.
-        ├── pca.py     				          #module in which we implemented PCA from scratch.
-        ├── pca_gdp.py  				      #uses pca.py to finally implement the Cluster Analysis.
-        ├── visualizations.py 			      #data analysis on various aspects of the dataset.
+        ├── GDP_capita_spanish_regions.csv      #dataset of the Nominal GDP per Capita in Spain.
+        ├── pca.py      #module in which we implemented PCA from scratch.
+        ├── pca_gdp.py      #uses pca.py to finally implement the Cluster Analysis.
+        ├── visualizations.py       #data analysis on various aspects of the dataset.
         
 ## Implementation
 We first perform the PCA for feature extraction and reduce the dimensionality for cluster analysis. This part is implemented in the PCA module. Using the PCA module we transform the dataset to generate the first 3 components of PCA. Using this transformed data we perform the cluster analysis with the K-means clustering Algorithm.
